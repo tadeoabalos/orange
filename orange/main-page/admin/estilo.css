@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    top: 0;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #272727;
+    color: #fff;
+}
+
+#nav-bar {
+    height: 5vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar h1 {
+    color: #FF8C00;
+}
+
+#busqueda {
+    width: 30vw;
+    height: 40%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+#libros {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    width: 100%;
+}
+
+.libro {
+    width: 19vw;
+    height: 400px;
+    text-align: center;
+    background-color: #444;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 1px;
+}
+
+.ven_visible
+  {
+      visibility: visible;
+  }
+
+.ven_invisible
+  {
+      visibility: hidden;
+  }
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    background-color: #272727;
+}
+
+#ventanamod, #ventanaalt {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #737575;
+    width: 50%;
+    height: 30%;
+    border-radius: 8px;
+    color: #FF8C00;
+  }
+
+  #ventanamod input {
+    background-color: orange;
+    margin: 5px;
+  }
+
+  #ventanaalt input {
+    background-color: orange;
+    margin: 5px;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
